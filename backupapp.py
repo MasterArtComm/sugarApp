@@ -64,5 +64,5 @@ else:
             st.write(f"อัปเดต measurement_id={measurement_id} สำเร็จ")
         else:
             st.write(f"อัปเดต measurement_id={measurement_id} ล้มเหลว")
-st.write('<a href="https://techno.varee.ac.th/users/sugarApp/profile.php" target="_blank">Profile</a>', unsafe_allow_html=True)
-st.write('<a href="https://techno.varee.ac.th/users/sugarApp/measurements_page.php" target="_blank">กราฟ</a>', unsafe_allow_html=True)
+st.write('<a href="https://techno.varee.ac.th/users/sugarApp/profile.php">Profile</a>', unsafe_allow_html=True)
+st.write('<a href="https://techno.varee.ac.th/users/sugarApp/measurements_page.php">กราฟ</a>', unsafe_allow_html=True)
